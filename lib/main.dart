@@ -10,6 +10,7 @@ void main() async {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: WelcomeScreen(),
+
       routes: {
         WelcomeScreen.id : (context) => WelcomeScreen(),
       },
