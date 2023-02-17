@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101165531926",
+    "project_id": "kriti-software",
+    "storage_bucket": "kriti-software.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101165531926:android:b0b441cab5f2ac41d18637",
+        "android_client_info": {
+          "package_name": "com.example.food_hut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101165531926-faplv69g6l9j4a68mglv5cvi9j07qslk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjwVa5MMem1H3LQMgGhmzrnZR6-gJjbgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101165531926-faplv69g6l9j4a68mglv5cvi9j07qslk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
