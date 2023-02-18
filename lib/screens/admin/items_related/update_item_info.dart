@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:food_hut/screens/admin/items_related/update_item_screen.dart';
 class UpdateItemInfo extends StatefulWidget {
   const UpdateItemInfo({Key? key}) : super(key: key);
-
   @override
   _UpdateItemInfoState createState() => _UpdateItemInfoState();
 }
@@ -78,7 +77,7 @@ class _UpdateItemInfoState extends State<UpdateItemInfo> {
           if(snapshot.hasData){
             List<Widget> allItems = [];
             snapshot.data!.docs.forEach((element){
-              allItems.add(foodItemTileMaker(element.id,element.get("name"), element.get("imageURL"), element.get("price"),screenWidth));
+              if(element.id!='sample') allItems.add(foodItemTileMaker(element.id,element.get("name"), element.get("imageURL"), element.get("price"),screenWidth));
             });
             return GridView.count(
               shrinkWrap: true,
