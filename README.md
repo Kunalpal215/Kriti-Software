@@ -6,7 +6,6 @@
 
 ## Demo
 #### The Video Demo [See from here](https://youtu.be/SYwHqYY_35s).
-#### The build version of application can be [downloaded from here](https://drive.google.com/file/d/1GuIB_97dN8bCFZmVZGzEqEgVgtsgpSBt/view?usp=sharing).
 
 ## 🧩 Main Features
 - Separate admin, user views in one app
